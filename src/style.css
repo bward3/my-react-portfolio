@@ -21,7 +21,7 @@ h4 {
 }
 
 h1 {
-    font-size: 300%;
+  font-size: 300%;
 }
 
 p {
@@ -82,7 +82,7 @@ p {
 .homePage {
   display: flex;
   padding: 10rem;
-  margin-top: 200px;
+  margin-top: 1rem;
 }
 
 .homePage h1 {
@@ -156,10 +156,10 @@ p {
 }
 
 .titleDiv {
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 2%;
-    /* position: absolute; */
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 2%;
+  /* position: absolute; */
 }
 
 footer {
@@ -177,6 +177,6 @@ footer a img {
 }
 
 .row img {
-    margin: 10px;
-    max-width: 80%;
+  margin: 10px;
+  max-width: 80%;
 }

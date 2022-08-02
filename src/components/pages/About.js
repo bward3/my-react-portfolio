@@ -2,7 +2,7 @@ import React from "react";
 
 const biop1 = `My name is Brian Ward. I'm a web developer based in
 Boulder, Colorado.`;
-const biop2= `My passions include ultimate frisbee, photography, and gaming. I graduated
+const biop2 = `My passions include ultimate frisbee, photography, and gaming. I graduated
 Connecticut College in 2018 with a BA in Computer Science. Since then, I have tried my hand at
 careers in entertainment, photography, and hospitality, finally circling back to software
 development. `;
