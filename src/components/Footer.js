@@ -1,21 +1,29 @@
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 
 export default function Footer() {
   return (
     <footer>
-      <a href="http://www.github.com/bward3">
-        <img src="./icons/github.png"></img>
-      </a>
-
-      <a href="http://www.linkedin.com/in/brianwardcs">
-        <img src="./icons/linkedin.png"></img>
-      </a>
-      <a href="https://www.instagram.com/bwaaard/">
-        <img src="./icons/instagram.png"></img>
-      </a>
-      <a href="http://www.twitter.com/bwaaard">
-        <img src="./icons/twitter.png"></img>
-      </a>
+      <SocialIcon
+        bgColor="#6366f1"
+        className="m-2"
+        url="https://linkedin.com/in/brianwardcs/"
+      />
+      <SocialIcon
+        bgColor="#6366f1"
+        className="m-2"
+        url="https://instagram.com/bwaaard/"
+      />
+      <SocialIcon
+        bgColor="#6366f1"
+        className="m-2"
+        url="https://twitter.com/bwaaard/"
+      />
+      <SocialIcon
+        bgColor="#6366f1"
+        className="m-2"
+        url="https://github.com/bward3/"
+      />
     </footer>
   );
 }

@@ -1,11 +1,11 @@
 :root {
   --rich-black: #000814;
   --oxford-blue: #001d3d;
-  --persion-blue: #003566;
+  --persion-blue: #003b73;
   --orange-web: #fca311ff;
   --goldenrod: #ffd60a;
   --platinum: #e5e5e5ff;
-  --muted-platinum: rgb(107, 107, 107);
+  --muted-platinum: #6b6b6b;
 }
 
 body {

@@ -1,10 +1,8 @@
 import "./style.css";
-import ContentContainer from './components/ContentContainer';
+import ContentContainer from "./components/ContentContainer";
 
 function App() {
-  return (
-    <ContentContainer />
-  );
+  return <ContentContainer />;
 }
 
 export default App;
