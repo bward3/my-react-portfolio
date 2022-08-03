@@ -1,0 +1,182 @@
+:root {
+  --rich-black: #000814;
+  --oxford-blue: #001d3d;
+  --persion-blue: #003b73;
+  --orange-web: #fca311ff;
+  --goldenrod: #ffd60a;
+  --platinum: #e5e5e5ff;
+  --muted-platinum: #6b6b6b;
+}
+
+body {
+  background-color: var(--rich-black);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: monospace;
+  color: var(--goldenrod);
+}
+
+h1 {
+  font-size: 300%;
+}
+
+p {
+  color: var(--platinum);
+  font-size: 130%;
+}
+
+.nav {
+  font-family: monospace;
+  overflow: hidden;
+  background-color: var(--rich-black);
+  display: flex;
+  width: 100vw;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav-item {
+  color: white;
+  padding: 0.5rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.nav-link {
+  color: var(--platinum);
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.nav-link:hover {
+  color: var(--orange-web);
+}
+
+.active {
+  color: var(--orange-web);
+}
+
+.active::before {
+  content: "<";
+}
+
+.active::after {
+  content: " />";
+}
+
+.homePage {
+  display: flex;
+  padding: 10rem;
+  margin-top: 1rem;
+}
+
+.homePage h1 {
+  font-size: 500%;
+}
+
+.imgContainer {
+  padding: 2rem;
+  border-radius: 10px;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+.homeInfo {
+  text-align: right;
+  padding: 2rem;
+  width: 50vw;
+  color: var(--goldenrod);
+  padding-left: 100px;
+}
+
+.about-box {
+  width: 35%;
+  left: 10%;
+  top: 35%;
+  position: absolute;
+  color: var(--goldenrod);
+}
+
+/* .about-box h1 {
+  font-size: 400%;
+} */
+
+.about {
+  margin-top: 5%;
+  padding: 1% 2% 1% 2%;
+  border-style: dashed;
+  border-color: var(--goldenrod);
+  /* border-radius: 100px; */
+}
+
+.subtitle {
+  font-size: 142%;
+}
+
+.homeInfo h1::before {
+  color: var(--orange-web);
+  content: "<";
+  font-family: monospace;
+}
+
+.homeInfo h1::after {
+  color: var(--orange-web);
+  content: " />";
+  font-family: monospace;
+}
+
+.homeImg {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.homeName {
+  color: var(--platinum);
+}
+
+.homeName:hover {
+  color: var(--orange-web);
+  cursor: default;
+}
+
+.titleDiv {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 2%;
+  /* position: absolute; */
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer a img {
+  width: 40px;
+  margin: 10px;
+}
+
+.row img {
+  margin: 10px;
+  max-width: 80%;
+}
